@@ -1,0 +1,68 @@
+body {
+    font-family: 'Nunito', Helveticat, Arial, sans-serif;
+    font-weight: 300;
+    color: $primary_dark_color;
+    line-height: 1.65;
+}
+p {
+  opacity: .7;
+}
+h2 {
+    line-height: 1.25rem;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  hr {
+    height: 3px;
+    width: 6.25rem;
+    background: $primary_color;
+    position: relative;
+    border: 0;
+    margin: 2rem auto 2rem auto;
+  }
+  .hr {
+    &--white {
+      background: $white_color_2;
+    }
+    &--small {
+        height: 2px;
+        width: 6.25rem;
+        background: $primary_dark_color;
+        position: relative;
+        border: 0;
+        margin-bottom: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+      }
+  }
+
+  img {
+    max-width: 100%;
+  }
+  section {
+    width: 100%;
+    padding: 4rem 0;
+  }
+  .section-title {
+    color: $primary_dark_color;
+    padding-top: 10px;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+
+    &--white {
+      color: $white_color_2;
+    }
+  }
+  .section-subtitle {
+    margin: auto;
+
+    @media(min-width: 768px) {
+      width: 75%;
+    }
+  }

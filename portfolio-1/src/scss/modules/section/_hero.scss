@@ -1,0 +1,28 @@
+.section-hero {
+    
+    &--content {
+        display: table-cell;
+        vertical-align: middle;
+        width: 1%;
+        height: 80vh;
+        color: white;
+        text-align: left;
+
+        h1 {
+            @media (min-width: 768px) {
+            font-size: 3.875rem;            
+            }
+            font-weight: 400;
+        }
+        
+        p {
+            font-size: 1.125rem;
+            letter-spacing: 0.125rem;
+
+            @media (min-width: 540px) {
+                font-weight: 400;
+                margin-bottom: 3.75rem;            
+            }
+        }
+    }
+}

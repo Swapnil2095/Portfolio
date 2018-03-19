@@ -1,0 +1,11 @@
+.section-contact {
+  color: $white_color_2;
+
+  .contact-form {
+    color: $primary_dark_color;
+    background-color: $white_color_2;
+    padding: 1.25rem;
+    border-radius: 4px;
+    border: 3px dotted $primary_color;
+  }
+}
